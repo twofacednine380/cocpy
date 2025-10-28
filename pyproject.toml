@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cocpy"
+version = "0.1.0"
+description = "Unofficial Clash of Clans API client for Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Giuseppe Fiengo"}, {name = "Marco Lobello"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Typing :: Typed",
+]
+dependencies = ["requests>=2.31"]
+
+[project.urls]
+Homepage = "https://github.com/twofacednine380/cocpy"
+Issues = "https://github.com/twofacednine380/cocpy/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
