@@ -180,4 +180,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-.github/workflows/.publish.yml
+.github/workflows/publish.yml
